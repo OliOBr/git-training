@@ -21,3 +21,7 @@ fun computeFibbonaciNumber(position: Int): Int {
     }
     return largeFibbonachiNumber
 }
+
+fun computeFibbonachiArray(start: Int, end: Int): List<Int> {
+    return (start..end).map { computeFibbonaciNumber(it) }
+}
