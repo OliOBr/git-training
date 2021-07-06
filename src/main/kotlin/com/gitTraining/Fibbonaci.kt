@@ -1,6 +1,5 @@
 package com.gitTraining
 
-
 fun computeFibbonaciNumber(position: Int?,  recursion: Boolean = false): Int {
     var notNullPosition = position
     if (notNullPosition == null){
@@ -16,6 +15,7 @@ fun computeFibbonaciNumber(position: Int?,  recursion: Boolean = false): Int {
 
     var smallFibbonachiNumber = 1
     var largeFibbonachiNumber = 1
+
 
     var currentPosition = 2
     while (currentPosition < notNullPosition) {
